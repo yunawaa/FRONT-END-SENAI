@@ -1,4 +1,6 @@
 algoritmo "PARA - múltiplo de 10"
+//  
+//  
 var
       contador : inteiro
 inicio
