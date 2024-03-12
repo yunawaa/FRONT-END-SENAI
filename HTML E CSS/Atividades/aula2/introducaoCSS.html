@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRODUÇÃO AO CSS</title>
+    <style>
+        img{
+            width: 720px;
+      border-radius: 97%;
+      box-shadow: 30px 30px 30px 30px rgb(187, 72, 120);
+        }
+        /* SELETOR VIA ID (ELEMENTO ÚNICO) */
+        #prosa{
+            color: rgb(157, 220, 231);
+        }
+        body{
+            background-color: rgb(236, 118, 167);
+            color: rgb(113, 33, 138);
+        }
+        p{
+            background-color: rgb(134, 219, 240);
+
+        }
+            /* ELEMENTO = SELETOR VIA CLASSE (AGRUPAMENTO) */
+        .mudafonte{
+            font-size: medium;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        /* PRIORIDADE NO NAVEGADOR:ID>CLASS.TAG */
+        #hcores{
+    background-color: rgb(157, 220, 231);
+        }
+    </style>
+    </head>
+    <body>
+        <h1 id="hcores">AULA DE CSS</h1>
+        <p class="mudafonte">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, maxime sit. Nobis quasi, maiores illo nisi corrupti, quam magni voluptatum, excepturi molestiae aut voluptas odio cumque impedit? Itaque, facilis distinctio.</p>
+        <p class="mudafonte">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, maxime sit. Nobis quasi, maiores illo nisi corrupti, quam magni voluptatum, excepturi molestiae aut voluptas odio cumque impedit? Itaque, facilis distinctio.</p>
+        <img src="cupcake.png.jpg" alt="Cupcakes saborosos">
+    </body>
+    </html>
