@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(159, 167, 175);
+    color: black;
+}
+#banner{
+    width: 1030px;
+}
+#cabecalho{
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    margin: 0px 405px 0px 405px;
+text-align: center;
+
+}
+#desc{
+    background-color: rgb(230, 230, 230);
+    margin: 0px 405px 0px 405px;
+    text-align: center;
+}
+
+#artigos{
+    width: 1030px;
+    height: 800px;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    text-align: left;
+    margin: 40px auto;
+}
