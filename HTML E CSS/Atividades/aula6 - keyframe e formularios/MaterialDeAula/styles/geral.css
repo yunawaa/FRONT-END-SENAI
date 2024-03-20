@@ -1,0 +1,81 @@
+@font-face {
+    font-family: retrotech ;
+    src: url(../fonts/retrotech/RETROTECH.ttf);
+}
+
+@keyframes mudacor {
+    0%{
+        color: black;
+    }
+    50%{
+        color: red;
+    }
+    100%{
+        color: blue;
+    }
+    
+    
+}
+
+:root{
+    --corprimaria : rgb(132, 0, 255);
+    --corsecundaria : rgb(18, 17, 104);
+    --branco : #fff;
+    --preto : black;
+    --fonteprimaria : retrotech ;
+    --fontesecundaria : 'Trebuchet MS' ;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--fontesecundaria);
+}
+
+#page{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--corsecundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 70%;
+    height: 80%;
+    background-color: var(--branco);
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+#efeito , #formulario{
+    width: 50%;
+    height: 100vh;      
+    
+}
+
+#efeito{    
+    background-image: url(../images/gameboy.jpeg);
+    background-size: cover;
+}
+
+#banner{
+    width: 100%;
+    height: 100%;
+    background: rgb(216,164,238);
+    background: linear-gradient(90deg, rgba(216,164,238,1) 0%, rgba(227,202,238,0.5707656612529002) 95%, rgba(237,237,238,0.6310904872389791) 100%);
+}
+
+h3{
+    animation-name: mudacor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#formulario form{
+    display: flex;
+    flex-direction: column;    
+    
+    
+}
