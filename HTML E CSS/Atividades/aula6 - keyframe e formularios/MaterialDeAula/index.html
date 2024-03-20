@@ -7,7 +7,10 @@
     <title>Login</title>
     <link rel="stylesheet" href="./styles/geral.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <!-- biblioteca -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
+
 <body>
     <div id="page">
         <main>
@@ -15,14 +18,14 @@
             <div id="banner"></div>
         </div>
             <div id="formulario">
-                <h3>CADASTRO</h3>
-                <form action="#" method="post">
+                <h3 class="animate__animated animate__pulse">CADASTRE-SE</h3>
+                <form action="./pages/home.html" method="post">
                     <!-- nome -->
                     <label for="nomedeusuario">Digite seu nome:</label>
                     <input required type="text" id="nomedeusuario">
                     <br>
                     <!-- email -->
-                    <label for="emaildeusuario">Insira o seu e-mail</label>
+                    <label for="emaildeusuario">Insira o seu melhor e-mail</label>
                     <input required type="email" id="emaildeusuario">
                     <br>
                     <!-- senha -->
@@ -31,12 +34,14 @@
                     <br>
                     <!-- data de nascimento -->
                     <label for="datanascimento">Insira a sua data de nascimento</label>
-                    <input type="date" id="datanascimento">
+                    <input required type="date" id="datanascimento">
                     <br>
                     
-                    <button type="submit">CADASTRAR</button>
+                    <a href="./pages/login.html"><button type="button">CADASTRAR</button></a>
                     <br>
                     <button type="reset">APAGAR TUDO</button>
+
+                    <a href="./pages/login.html">Já possui cadastro? Faça o login!</a>
 
 
                 </form>
