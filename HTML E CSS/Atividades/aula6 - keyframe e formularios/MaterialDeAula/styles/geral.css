@@ -3,7 +3,7 @@
     src: url(../fonts/retrotech/RETROTECH.ttf);
 }
 
-@keyframes mudacor {
+@keyframes mudacor{
     0%{
         color: rgb(0, 0, 0);
     }
@@ -54,7 +54,7 @@
 main{
     width: 70%;
     height: 80%;
-    background-color: var(--branco);
+    background-image: linear-gradient(to bottom right, rgb(250, 129, 88), rgb(19, 16, 125));
     border-radius: 10px;
     display: flex;
     overflow: hidden;
@@ -104,4 +104,8 @@ button{
     padding: 10px;
     border: solid rgb(0, 0, 0);
     cursor: pointer;
+}
+
+a{
+    color: var(--preto);
 }
