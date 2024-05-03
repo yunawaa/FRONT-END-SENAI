@@ -1,1 +1,0 @@
-// Coloque no html a mensagem "Script Funcionando", bem no meio da tela estilizado:
