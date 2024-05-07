@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    <main>
+        <div id="pesquisar" class="topico">
+            <input type="text" placeholder="Insira um jogo para pesquisar" id="inputresposta">
+            <button type="button" id="btnresposta">PESQUISAR</button>
+            <div id="pesquisaresposta"></div>
+        </div>
+        <div id="substituir" class="topico">
+            <textarea id="texto" cols="30" rows="10"></textarea>
+            <input type="text" id="achartermo" placeholder="O termo para remover">
+            <input type="text" id="trocartermo" placeholder="O novo termo">
+            <button type="button" id="btnreplace">TROCAR UM TERMO</button>
+            <button type="button" id="btnreplaceall">TROCAR TODOS OS TERMOS</button>
+        </div>
+    </main>
     
     <script src="./index.js"></script>
 </body>
