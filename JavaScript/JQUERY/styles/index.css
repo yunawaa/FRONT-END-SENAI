@@ -1,0 +1,10 @@
+body{
+     background-image: url(/adam-gonzales-cfKwE7k9qqA-unsplash.jpg);
+     background-size: cover;
+}
+
+#teste{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+}

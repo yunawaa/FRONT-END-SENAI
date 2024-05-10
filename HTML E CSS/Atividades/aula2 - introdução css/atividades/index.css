@@ -1,0 +1,24 @@
+body {
+    background-color: #f0f0f0; /* Cor de fundo */
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.categoria {
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.explicacao {
+    font-size: 14px;
+    color: #666; 
+}
+
